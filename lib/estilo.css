@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    font-family: Roboto Mono;
+}
+
+nav img {
+    width: 195px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.container img {
+    width: 100%;
+}
+
+.gloss {
+    position: absolute;
+    top: 250px;
+    right: 70px;
+    width: 400px;
+    font-family: Inconsolata;
+
+}
+
+.gloss h3 {
+    font-size: 90px;
+}
+
+.gloss h1 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.button-shop {
+    width: 145px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.background-info{
+    margin: 100px 50px;
+    font-family: Inconsolata;
+}
+.background-info h4{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.background-info h1{
+    font-size: 50px;
+    width: 900px;
+}
+.linha-horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 75rem;
+    border: 1px dashed   #a7aaac;
+    margin-bottom: 100px;
+}
+.container-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:Inconsolata ;
+}
+
+.info-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+.circle-yellow{
+    width: 200px;
+    height: 200px;
+    background-color: #74d6f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-yellow img{
+    width: 110px;
+}
+.info-background h3{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.info-background p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin:100px 0;
+
+}
+
+form{
+    width: 480px;
+    height:450px;
+    background-color:#4e69f1;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+form h2{
+    font-size: 20px;
+    margin:20px 15px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-button{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.button-form{
+    margin: 15px 0;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+    font-size: 15px;
+}
+
+
+form a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 17px;
+    width: 170px;
+    height: 50px;
+    background-color: #efa847;
+    color: white;
+    text-decoration: none;
+    border-radius: 11px;
+    font-size: 20px;
+    font-family:monospace ;
+    box-shadow: 0 0 10px rgb(209, 209, 209);
+}
+
+form .text{
+    font-size: 15px;
+    margin: 20px 17px;
+    color: #f3f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
